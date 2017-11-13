@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Books in Pawnshops</title>
+            <title type="sub">Valuable Volumes Find Their Way Into the Places of Decatur Street Brokers</title>
+            <title type="sub">OPIUM FIENDS SELL THEM.</title>
+            <title type="sub">A Man Who Handles Second Hand Books Tells Something About People Who Pawn and Sell Them- Books Valued by Their Purchasers for Their Gaudy Bindings-Drunk-en Husbands Who Barter Them for a Drink.</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+                <persName xml:id="MCB">Melissa C. Brown</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Encoded by</resp>
+                <persName ref="#MCB">Melissa C. Brown</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti</persName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">First edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="1">1 full page of source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-12">October 16, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Black Women in Historical Newspapers </title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#MCB">Melissa C. Brown</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">Books in Pawnshops</title>
+                     <title type="sub">Valuable Volumes Find Their Way Into the Places of Decatur Street Brokers</title>
+                     <title type="sub">OPIUM FIENDS SELL THEM.</title>
+                    <title type="sub">A Man Who Handles Second Hand Books Tells Something About People Who Pawn and Sell Them- Books Valued by Their Purchasers for Their Gaudy Bindings-Drunk-en Husbands Who Barter Them for a Drink.</title>
+                     <author>
+                         <persName>Anonymous</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The sunny South</title> <!-- The "level" attribute allows me to indicate that this title is a "journal," defined by TEI as any serial or periodical publication like a journal, magazine, or newspaper. -->
+                     <imprint>
+                         <publisher>John H. Seals</publisher>
+                         <pubPlace>
+                             <region>Atlanta</region>
+                             <settlement>Georgia</settlement>
+                         </pubPlace>
+                         <date when="1897-10-09">October 09, 1897</date>
+                     </imprint>
+                 </monogr>
+                 <ref type="url"> https://gahistoricnewspapers.galileo.usg.edu/regions/atlanta/</ref>
+             </biblStruct>
+             <bibl type="article">
+                 <title>The Jezebel Speaks:Black Women and Erotic Labor in the Digital Age</title>
+                 <author>
+                     <persName ref="#MCB">Melissa C. Brown</persName>
+                 </author>
+             </bibl>
+             <bibl>
+                 <interpGrp resp="#MCB" type="institution"> <!-- Search for "interGrp" in the TEI guidelines to learn more about how we can use this element to conduct an ideational analysis! -->
+                     <desc>instiutional analysis of Black strip clubs.</desc>
+                     <interp xml:id="CITY">Municipial Government</interp>
+                     <interp xml:id="FED">State Government</interp>
+                     <interp xml:id="EDU">Education</interp>
+                     <interp xml:id="REL">Relief</interp>
+                     <interp xml:id="GA">State Government</interp>
+                     <interp xml:id="NEWS">Media</interp>
+                     <interp xml:id="BLACK"> Black neighborhoods </interp>
+                     <interp xml:id="STREET"> Street names </interp>
+                 </interpGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors, linebreaks, and column breaks encountered have been preserved.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been retained.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the 2017-2018 <orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+         <p> A lover of books might soon accumulate a library by keeping an eye open on the pawn shops of
+           <placeName ref="#STREET" type="street"> Decatur street </placeName>,
+           says the <orgName ref="#NEWS">Atlanta Journal</orgName>.</p>
+
+         <p> The old book stores no longer have a monopoly of rare and curious old volumes,
+           and the show windows of some of the three ball establishments might easily be mistaken
+           for those of second-hand book stores.</p>
+
+         <p> In a window in the busiest part of the
+           <placeName ref="#BLACK" type="neighborhood">Darktown</placeName>
+           section of <placeName ref="#STREET" type="street"> Decatur street </placeName>
+           may be seen some very handsomely bound volumes of Mulbach's works, elegantly
+           finished photograph albums and the works of other authors in neat coverings.</p>
+
+         <p> There are no family Bibles in evidence, however, and the gentry who conduct those
+           establishments would hardly accept a Bible at any price.</p>
+         <p> It is very interesting to examine the quality and character of the books that are
+           displayed by the men who advance small sums to the
+           impecunious at a given per cent per month and accept as collateral anything
+           that can be sold for five times the value of the loan.</p>
+           <div type="article">
+             <head rend="bold" type="sub"> Installment Books.</head>
+             <p> The increased sale of books on the installment plan seems to have given an impetus to
+            the trade, and as such large profits are made by those who sell pirated editions of
+            standard authors on the installment plan, nobody is out any great amount of money.</p>
+
+            <p> An eighteen volume edition of Mulbach, bound in blue and gold, is offered by the pawn
+              broker for $6.50. It probably cost him a couple of dollars or less.</p>
+
+            <p> It is a noticeable fact that the volumes with the gaudiest binding are the most in evidence.
+            That is easy to account for from the fact that many persons are attracted more by the binding
+            than the contents in buying books on the installment plan and when they get hard up and
+            want to sell a few volumes to the man of the golden globes,
+            the finest covers command the readiest sale.</p>
+
+            <p>On the other hand the pawn broker finds it easier to sell some gaudily bound
+            volume to the class of people who patronize him than to sell a more meritorious
+            work with a less catchy binding.</p>
+
+            <p> One reason for the sale of so many books in that way is the existence of the opium or
+              morphine fiend who will sell anything for the purpose of securing a small sum to procure
+              the narcotic in an emergency.</p>
+            <p>
+            <quote>
+              "I was approached by a well known citizen with the request that
+              I should not buy any books from his wife,"
+            </quote>
+            said a dealer in second-hand books,
+            <quote>
+              “for the reason that she was removing the most valuable books
+              from his library to get money with which to buy morphine.
+              He had cut off her supply of pin money to try and prevent her from indulging in the drug,
+              but she, with the cunning of all morphine fiends,
+              had hit upon the idea of selling books with which to purchase the drug.”
+            </quote>
+          </p>
+
+          <p> It may be noticed that the fly leaves of such costly volumes as
+            are exposed for sale have either been torn out or else the name of the
+            owner carefully erased so that the identity of the seller may not be so
+            easily established. </p>
+          <p> Many a rare old volume finds its way into the hands of the pawnbroker or
+            the secondhand book dealer in this way. Books being so cheap just now,
+            and money somewhat scarce, they do not command as high a price as
+            they did a few years ago, but the sales go on just the same.</p>
+          <p> The topers are also responsible for the sale of a great many books.
+            Possibly a man's wife buys a few books on the installment plan,
+            but before she pays for them the husband takes to drink and slips
+            the books out one by one and sells or pawns them for money with which
+            to satisfy his vicious appetite.</p>
+          <p> Books are seen in some establishments that would be invaluable
+              to collectors under different circumstances, that may have been
+              sold for a pittance and the money spent in prolonging a debauch. </p>
+          <p> It is a pathteic thing to contemplate these works of some of the
+            best writers exposed for sale under such circumstances, their former
+            owners having lost their taste for literature in the overpowering
+            taste for liquor. </p>
+        </div>
+        <div type="article">
+          <head rend="bold" type="sub"> How Collectors Fare. </head>
+          <p>The collectors for the installment companies have kept a sharp eye
+            on some of their customers to prevent the disappearance of the books
+            before they are paid for.</p>
+          <p> The books are usually sold in sets for from $10 to $30 on the installment
+            plan, so much down and the balance to be paid In monthly installments.
+            The books are usually gotten up in cheap but very attractive bindings,
+            and cost possibly one-fourth or one-third what they are sold for
+            on the installment plan. If the collector gets half the price
+            demanded there is no great loss, but they are generally skilled in
+            the business and their losses are trifling compared with the enormous sales.</p>
+            <!-- Second referene to black people in the text, implies
+            they are too ignorant to read them. Even when they can they do so from an ignorant place -->
+          <p> In many cases the books are bought more for ornament than use and it
+              is no uncommon thing to see sets of handsomely bound books by famous authors
+              in the humblest cottages of the laboring classes, and even in tile cabins
+              of the ignorant negroes, who do not understand the contents,of the books even
+              when they are able to read them.</p>
+          <p> It is not so much a thirst for knowledege as it is a desire to ornament
+            the house that induces many people to buy books, and this trait is
+            confined to no particular class.</p>
+          <p> One unacquainted with the facts might be deluded into believing that
+            there was a great tidal wave of literary ambition sweeping over
+            the city and suburbs from the number of books
+            that are to be seen in unexpected quarters.</p>
+          <p> But this is not the case. They are purchased often because they
+            set off the room, and there is no v-ariety of ornament that is
+            cheaper now than books, and, besides, it gives an air of refinement
+            and culture to the owners of the house. </p>
+          <p>Then hard times come and those who have purchased the books solely
+            for the looks of the thing feel no compunctions of conscience
+            in parting with them, as they were purchased more for ornament
+            than use and are ►among the luxuries easiest to dispense with
+            in a case of emergency.</p>
+          <p> This swells the list of standard authors to be found among the
+            other odds and ends of the pawnbrokers’ establishments and exposed
+            for sale on the little stands in front of the second-hand book
+            dealers' stores, with cards indicating
+            the cheapness of the bargains offered.</p>
+        </div>
+      </body>
+  </text>
+</TEI>

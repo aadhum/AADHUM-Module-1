@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title type="main">Frenzied Negro Shot His Wife and Policeman </title>
+           <title type="sub">Digital Edition</title>
+            <author>
+                <persName xml:id="MCB">Melissa C. Brown</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Encoded by</resp>
+                <persName ref="#MCB">Melissa C. Brown</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti</persName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">First edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="1">1 full page of source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-12">November 11, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Black Women in Historical Newspapers </title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#MCB">Melissa C. Brown</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">Frenzied Negro Shot His Wife and Policeman </title>
+
+                     <author>
+                         <persName>Anonymous</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Atlanta Georgian</title> <!-- The "level" attribute allows me to indicate that this title is a "journal," defined by TEI as any serial or periodical publication like a journal, magazine, or newspaper. -->
+                     <imprint>
+                         <publisher>F.L. Seely</publisher>
+                         <pubPlace>
+                             <region>Atlanta</region>
+                             <settlement>Georgia</settlement>
+                         </pubPlace>
+                         <date when="1906-07-30">July 30, 1906</date>
+                     </imprint>
+                 </monogr>
+                 <ref type="url"> https://gahistoricnewspapers.galileo.usg.edu/regions/atlanta/</ref>
+             </biblStruct>
+             <bibl type="article">
+                 <title>The Jezebel Speaks:Black Women and Erotic Labor in the Digital Age</title>
+                 <author>
+                     <persName ref="#MCB">Melissa C. Brown</persName>
+                 </author>
+             </bibl>
+             <bibl>
+                 <interpGrp resp="#MCB" type="institution"> <!-- Search for "interGrp" in the TEI guidelines to learn more about how we can use this element to conduct an ideational analysis! -->
+                     <desc>instiutional analysis of Black strip clubs.</desc>
+                     <interp xml:id="CITY">Municipial Government</interp>
+                     <interp xml:id="FED">State Government</interp>
+                     <interp xml:id="EDU">Education</interp>
+                     <interp xml:id="REL">Relief</interp>
+                     <interp xml:id="GA">State Government</interp>
+                     <interp xml:id="NEWS">Media</interp>
+                     <interp xml:id="BLACK"> Black neighborhoods </interp>
+                     <interp xml:id="STREET"> Street names </interp>
+                 </interpGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors, linebreaks, and column breaks encountered have been preserved.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been retained.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the 2017-2018 <orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+
+         <p>
+          Enraged and inflamed by a combination of jealousy and liquor. <persName> Major Crawford </persName>,
+          of <placeName ref="#STREET" type="street"> 176 Fort streat,</placeName> a negro
+         <affiliation> driver for <orgName type="employer"> the Morrow Transfer Company </orgName> </affiliation>,
+         ran amuck with a loaded revolver Sunday afternoon shortly after 5 o'clock in
+         <placeName ref="#BLACK" type="neighborhood"> Darktown </placeName>, as a result of which his wife,
+         <persName>Estelle Crawford</persName>, is dead,
+         <affiliation type="law"> Bicycle Policeman <persName>Fincher </persName></affiliation> is in
+         the <orgName type="hospital"> Grady hospital </orgName> with two bullet wounds in his right leg,
+         a crowd of fully 5,000 excited people was attracted to the scene, and the desperate and
+         blood-thirsty negro came near being lynched by his own race.
+        </p>
+
+        <p>
+          After being chased for several blocks and shot at numbers of times by his pursuers,
+          <persName>Crawford</persName> was finally run to earth underneath a house in
+          <placeName ref="#STREET" type="street"> Auburn Avenue </placeName>,
+          near <placeName ref="#STREET" type="street">Piedmont avenue</placeName>,
+          where he threw down his pistol and surrendered to
+          <affiliation type="law" > Police Captain <persName> Maya</persName></affiliation>.
+          The negro is now a prisoner behind the bars of the police station.
+        </p>
+
+        <p>
+          His head shows the effects of his wild experience, the cranium exhibiting five or six wounds.
+          Neither of these wounds were made by bullets, however, ihe negro having a remarkable escape
+          from the shower of leaden pellets that fell about him aa tried to make hie escape.
+        </p>
+
+        <p>
+          The trouble started at the home of <persName>Crawford's aunt </persName>,
+          <placeName ref="#STREET" type="street"> 810 Bell street</placeName>.
+          It Was here that <persName>Estelle Crawford</persName> was shot.
+          She waa killed by her husband because he had seen her, in company with another man.
+          Three shots were fired, two of them taking effect, one in the right lung and th* other in the right shoulder.
+          The wounded woman was taken to the <orgName type="hospital"> Grady hospital </orgName>, where she died
+          Monday morning about 5:30'clock
+        </p>
+
+        <p>
+          <affiliation type="law">  <persName>Policeman Fincher </persName> </affiliation> is not considered
+          seriously hurt, although he will probably be confined to his bed tor some time.
+          He was shot twice in the right leg. one bullet taking affect between the knee and ankle,
+           and the other penetrating the high.
+        </p>
+
+        <p>
+          The negroes were thoroughly incensed over the shooting of the negro woman and 5,000 gathered.
+           There were wild cries of "hang him, hang him."As soon as a report of the trouble was
+           received at the police station a squad of policemen hurried to the scene on horses and
+           these soon had the situation well in hand.
+        </p>
+
+        <p>
+          Afler shooting his wife, <persName> Crawford</persName> ran and a short distance away.
+          <affiliation type="law"> Bicycle Policemen <persName>Fincher </persName> and <persName>Coker</persName> </affiliation>
+          joined in the chase. The officers were gaining on the fugitive, when suddenly the latter turned and fired,
+          one bullet striking <affiliation type="law">  <persName>Policeman Fincher </persName> </affiliation> in the leg.
+           A second shot also struck him.
+        </p>
+
+        <p>
+          The negro then ran from the vacant lot and was again loat. A few minutes later he was discovered underneath a house by
+          <persName> I. Welhberg</persName> , who called <affiliation type="law"><persName>Captain Mayo </persName> </affiliation> .
+          <persName>Crawford </persName> then threw down his weapon and surrendered to the captain.
+        </p>
+
+
+        <p>
+          When asked Monday for an explanation of his conduct, <persName> Crawford </persName> replied:
+          "I was just simply crazy. I didn't know what I was doing. I didn’t so much want to get away, but I was just crazy."
+        </p>
+      </body>
+  </text>
+</TEI>
