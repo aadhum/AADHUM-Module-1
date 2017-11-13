@@ -116,6 +116,17 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+            <listPerson>
+              <personGrp resp="#MCB" xml:id="Negro">
+                <interp xml:id="church"> Church folk </interp>
+                <interp xml:id="bogey"> Black bogeyman </interp>
+                <interp xml:id="women"> Women </interp>
+                <interp xml:id="hulk"> Black man as hyperaggressive </interp>
+                <interp xml:id="men"> Men </interp>
+              </personGrp>
+            </listPerson>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->

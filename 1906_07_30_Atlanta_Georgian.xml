@@ -111,6 +111,17 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+            <listPerson>
+              <personGrp resp="#MCB" xml:id="Negro">
+                <interp xml:id="church"> Church folk </interp>
+                <interp xml:id="bogey"> Black bogeyman </interp>
+                <interp xml:id="women"> Women </interp>
+                <interp xml:id="hulk"> Black man as hyperaggressive </interp>
+                <interp xml:id="men"> Men </interp>
+              </personGrp>
+            </listPerson>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
@@ -120,7 +131,7 @@
       <body>
 
          <p>
-          Enraged and inflamed by a combination of jealousy and liquor. <persName> Major Crawford </persName>,
+          Enraged and inflamed by a combination of jealousy and liquor. <persName ref="#men"> Major Crawford </persName>,
           of <placeName ref="#STREET" type="street"> 176 Fort streat,</placeName> a negro
          <affiliation> driver for <orgName type="employer"> the Morrow Transfer Company </orgName> </affiliation>,
          ran amuck with a loaded revolver Sunday afternoon shortly after 5 o'clock in
@@ -128,8 +139,8 @@
          <persName>Estelle Crawford</persName>, is dead,
          <affiliation type="law"> Bicycle Policeman <persName>Fincher </persName></affiliation> is in
          the <orgName type="hospital"> Grady hospital </orgName> with two bullet wounds in his right leg,
-         a crowd of fully 5,000 excited people was attracted to the scene, and the desperate and
-         blood-thirsty negro came near being lynched by his own race.
+         a crowd of fully 5,000 excited people was attracted to the scene, and
+         <persName ref="#hulk"> the desperate and blood-thirsty negro </persName> came near being lynched by his own race.
         </p>
 
         <p>
@@ -144,16 +155,16 @@
 
         <p>
           His head shows the effects of his wild experience, the cranium exhibiting five or six wounds.
-          Neither of these wounds were made by bullets, however, ihe negro having a remarkable escape
-          from the shower of leaden pellets that fell about him aa tried to make hie escape.
+          Neither of these wounds were made by bullets, however, the negro having a remarkable escape
+          from the shower of leaden pellets that fell about him as tried to make his escape.
         </p>
 
         <p>
-          The trouble started at the home of <persName>Crawford's aunt </persName>,
+          The trouble started at the home of <persName> Crawford's aunt </persName>,
           <placeName ref="#STREET" type="street"> 810 Bell street</placeName>.
-          It Was here that <persName>Estelle Crawford</persName> was shot.
-          She waa killed by her husband because he had seen her, in company with another man.
-          Three shots were fired, two of them taking effect, one in the right lung and th* other in the right shoulder.
+          It was here that <persName>Estelle Crawford</persName> was shot.
+          She was killed by her husband because he had seen her, in company with another man.
+          Three shots were fired, two of them taking effect, one in the right lung and the other in the right shoulder.
           The wounded woman was taken to the <orgName type="hospital"> Grady hospital </orgName>, where she died
           Monday morning about 5:30'clock
         </p>
@@ -181,7 +192,7 @@
         </p>
 
         <p>
-          The negro then ran from the vacant lot and was again loat. A few minutes later he was discovered underneath a house by
+           The negro then ran from the vacant lot and was again loat. A few minutes later he was discovered underneath a house by
           <persName> I. Welhberg</persName> , who called <affiliation type="law"><persName>Captain Mayo </persName> </affiliation> .
           <persName>Crawford </persName> then threw down his weapon and surrendered to the captain.
         </p>

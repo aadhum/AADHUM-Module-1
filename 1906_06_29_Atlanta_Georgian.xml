@@ -113,6 +113,17 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+            <listPerson>
+              <personGrp resp="#MCB" xml:id="Negro">
+                <interp xml:id="church"> Church folk </interp>
+                <interp xml:id="bogey"> Black bogeyman </interp>
+                <interp xml:id="women"> Women </interp>
+                <interp xml:id="hulk"> Black man as hyperaggressive </interp>
+                <interp xml:id="men"> Men </interp>
+              </personGrp>
+            </listPerson>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
@@ -120,13 +131,15 @@
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
       <body>
-         <p> A. P. Dunbar, pastor of a church in  <placeName ref="#BLACK" type="neighborhood">Darktown</placeName>,
-         was haled before Judge Ormond Friday morning on n charge of doing sick benefit and Insurance business without having complied with the state law.
+         <p> <persName ref="#church"> A. P. Dunbar </persName>, pastor of a church in <placeName ref="#BLACK" type="neighborhood">Darktown</placeName>,
+         was haled before <affiliation type="law"> <persName> Judge Ormond </persName> </affiliation> Friday morning on
+         a charge of doing sick benefit and insurance business without having complied with the <orgName ref="#GA"> state law </orgName>.
          Dunbar claimed to represent the <orgName ref="#REL"> Mutual Relief and Benevolent Association</orgName>,
          of <placeName type="city" ref="#CITY"> Columbia, S. C, </placeName>
          but the company-had failed to deposit with the <orgName ref="#GA"> state treasurer </orgName>
-         the bond of 86,000 required by law. Upon his promise to quit the business end refund all money's collected
-         by him the charges against Dunbar were dismissed.
+         the bond of 5,000 required by law.
+         Upon his promise to quit the business end refund all money's collected
+         by him the charges against <persName ref="#church">Dunbar</persName> were dismissed.
         </p>
       </body>
   </text>
