@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title type="main">Frenzied Negro Shot His Wife and Policeman </title>
+           <title type="main">Gossip of Statesmen and Politicans </title>
            <title type="sub">Digital Edition</title>
             <author>
                 <persName xml:id="MCB">Melissa C. Brown</persName>
@@ -55,7 +55,7 @@
              <listBibl>
              <biblStruct>
                  <analytic>
-                     <title type="main">Frenzied Negro Shot His Wife and Policeman </title>
+                     <title type="main"> Gossip of Statesmen and Politicans </title>
 
                      <author>
                          <persName>Anonymous</persName>
@@ -69,7 +69,7 @@
                              <region>Atlanta</region>
                              <settlement>Georgia</settlement>
                          </pubPlace>
-                         <date when="1906-07-30">July 30, 1906</date>
+                         <date when="1906-08-04"> August 04, 1906</date>
                      </imprint>
                  </monogr>
                  <ref type="url"> https://gahistoricnewspapers.galileo.usg.edu/regions/atlanta/</ref>
@@ -129,79 +129,33 @@
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
       <body>
+          <p>
+            <affiliation type="government">
+              <persName>Secretary Charlie Northen </persName>
+            </affiliation>
+            is not a heartless man. He feels for his fellow man.
+            He can even does noble and unselfish things.
+          </p>
+          <p>
+            For some days prior to last Wednesday
+            the big bottle of <placeName ref="#CITY">Lithia</placeName>
+            water accustomed to stand on his desk to the left of the president was missing.
+            Members floated up and after trying the faucet and finding a drouth, went away.
+            <persName> Brick Miller </persName> threatened to introduce a resolution to require
+            <affiliation type="government"><persName>the secretary </persName></affiliation>
+            to keep the necessary irrigating substance on hand.
+          </p>
+          <p>
+            Thursday morning the bottle, filled to the bursting point with cool, limpid
+            <placeName ref="#CITY">Lithia</placeName> aqua, invited the thirsty.
+            By way of parenthesis it is stated that the 'cue to members was held Wednesday afternoon.
+            And the crowd about the fount of coolness all during the session Thursday was about
+            like a watermelon cutting in <placeName ref="#BLACK"> Darktown </placeName>.
+            And <affiliation type="government">
+              <persName> Secretary Northen </persName>
+            </affiliation> smiled benignantly upon them, and now and then took a refreshing sip himself.
+          </p>
 
-         <p>
-          Enraged and inflamed by a combination of jealousy and liquor. <persName ref="#men"> Major Crawford </persName>,
-          of <placeName ref="#STREET" type="street"> 176 Fort streat,</placeName> a negro
-         <affiliation> driver for <orgName type="streetcar"> the Morrow Transfer Company </orgName> </affiliation>,
-         ran amuck with a loaded revolver Sunday afternoon shortly after 5 o'clock in
-         <placeName ref="#BLACK" type="neighborhood"> Darktown </placeName>, as a result of which his wife,
-         <persName>Estelle Crawford</persName>, is dead,
-         <affiliation type="law"> Bicycle Policeman <persName>Fincher </persName></affiliation> is in
-         the <orgName type="hospital"> Grady hospital </orgName> with two bullet wounds in his right leg,
-         a crowd of fully 5,000 excited people was attracted to the scene, and
-         <persName ref="#hulk"> the desperate and blood-thirsty negro </persName> came near being lynched by his own race.
-        </p>
-
-        <p>
-          After being chased for several blocks and shot at numbers of times by his pursuers,
-          <persName>Crawford</persName> was finally run to earth underneath a house in
-          <placeName ref="#STREET" type="street"> Auburn Avenue </placeName>,
-          near <placeName ref="#STREET" type="street">Piedmont avenue</placeName>,
-          where he threw down his pistol and surrendered to
-          <affiliation type="law" > Police Captain <persName> Maya</persName></affiliation>.
-          The negro is now a prisoner behind the bars of the police station.
-        </p>
-
-        <p>
-          His head shows the effects of his wild experience, the cranium exhibiting five or six wounds.
-          Neither of these wounds were made by bullets, however, the negro having a remarkable escape
-          from the shower of leaden pellets that fell about him as tried to make his escape.
-        </p>
-
-        <p>
-          The trouble started at the home of <persName> Crawford's aunt </persName>,
-          <placeName ref="#STREET" type="street"> 810 Bell street</placeName>.
-          It was here that <persName>Estelle Crawford</persName> was shot.
-          She was killed by her husband because he had seen her, in company with another man.
-          Three shots were fired, two of them taking effect, one in the right lung and the other in the right shoulder.
-          The wounded woman was taken to the <orgName type="hospital"> Grady hospital </orgName>, where she died
-          Monday morning about 5:30'clock
-        </p>
-
-        <p>
-          <affiliation type="law">  <persName>Policeman Fincher </persName> </affiliation> is not considered
-          seriously hurt, although he will probably be confined to his bed tor some time.
-          He was shot twice in the right leg. one bullet taking affect between the knee and ankle,
-           and the other penetrating the high.
-        </p>
-
-        <p>
-          The negroes were thoroughly incensed over the shooting of the negro woman and 5,000 gathered.
-           There were wild cries of "hang him, hang him."As soon as a report of the trouble was
-           received at the police station a squad of policemen hurried to the scene on horses and
-           these soon had the situation well in hand.
-        </p>
-
-        <p>
-          Afler shooting his wife, <persName> Crawford</persName> ran and a short distance away.
-          <affiliation type="law"> Bicycle Policemen <persName>Fincher </persName> and <persName>Coker</persName> </affiliation>
-          joined in the chase. The officers were gaining on the fugitive, when suddenly the latter turned and fired,
-          one bullet striking <affiliation type="law">  <persName>Policeman Fincher </persName> </affiliation> in the leg.
-           A second shot also struck him.
-        </p>
-
-        <p>
-           The negro then ran from the vacant lot and was again lost. A few minutes later he was discovered underneath a house by
-          <persName> I. Welhberg</persName> , who called <affiliation type="law"><persName>Captain Mayo </persName> </affiliation> .
-          <persName>Crawford </persName> then threw down his weapon and surrendered to the captain.
-        </p>
-
-
-        <p>
-          When asked Monday for an explanation of his conduct, <persName> Crawford </persName> replied:
-          "I was just simply crazy. I didn't know what I was doing. I didn’t so much want to get away, but I was just crazy."
-        </p>
       </body>
   </text>
 </TEI>
